@@ -41,7 +41,7 @@ Export-PfxCertificate -Cert $cert -FilePath "FILEPATH>\$certname.pfx" -Password 
 **I strongly recommend you do not keep your certificate thumbprint in plaintext. Store the value securely and adjust script as appropriate for your running environment.**
 
 1. Copy the script to the location you want to keep it. This is the recommended folder structure:
-    <Root Path>\Get-EntraRiskAlerts\Logs
+    <br>Disk Path\Get-EntraRiskAlerts\Logs
 2. Edit the script and update the values for:
    - `TenantID`
    - `ClientID`
