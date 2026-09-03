@@ -38,7 +38,10 @@ Export-PfxCertificate -Cert $cert -FilePath "FILEPATH>\$certname.pfx" -Password 
 
 ## Setup Instructions
 
-1. Copy the folder and its contents to the desired location for the script and data.
+**I strongly recommend you do not keep your certificate thumbprint in plaintext. Store the value securely and adjust script as appropriate for your running environment.**
+
+1. Copy the script to the location you want to keep it. This is the recommended folder structure:
+    <Root Path>\Get-EntraRiskAlerts\Logs
 2. Edit the script and update the values for:
    - `TenantID`
    - `ClientID`
@@ -48,6 +51,7 @@ Export-PfxCertificate -Cert $cert -FilePath "FILEPATH>\$certname.pfx" -Password 
    - `EmailTo`
    - `SmtpServer`
    - `LogFolder`
+3. Once done, you can run the script as often as you feel is needed. I would recommend every 30 minutes. 
 
 ## Alert Example
 
