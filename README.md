@@ -48,3 +48,7 @@ Export-PfxCertificate -Cert $cert -FilePath "FILEPATH>\$certname.pfx" -Password 
    - `EmailTo`
    - `SmtpServer`
    - `LogFolder`
+
+## Alert Example
+
+![Entra Risk Alert Example](https://github.com/GronTron/M365_Get-EntraRiskAlert/blob/main/Get-EntraRiskAlerts/AlertExample.jpg? "Entra Risk Alert Example")
